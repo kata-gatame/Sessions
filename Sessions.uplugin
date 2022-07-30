@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Sessions",
+	"Description": "Plugin for finding multiplayer game sessions.",
+	"Category": "Other",
+	"CreatedBy": "kata.codes",
+	"CreatedByURL": "https://kata.codes",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Sessions",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		}, {
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		}
+	]
+}
